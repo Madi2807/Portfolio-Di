@@ -3,54 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
     <title>Document</title>
     <style>
-        :foot {
-            --box-shadow:10px 10px 10px rgbd(0, 0, 0, 0.6)
-        }
-        
+           
         .characteristics {
             display: flex;
             justify-content: space-around;
         }
-        .characteristic {
-            background-color: rgb(224, 225, 222);
-            border: 1px solid black;
-            padding: 20px;
-            text-align: center; 
-        }
-        
-        h2 {
+        h5 {
             font-style: italic;
             text-align: center;
+            background-color: rgb(241, 183, 178);
+        }
+        .footer {
+            margin-top: 100px;
+           text-align: center; 
         }
         .gohome {
         text-align: right;
-        
+        position: static;
+        margin-bottom: 100px;
         }
          body {
-    background-color: rgb(142, 142, 141);
+    background-color: rgb(179, 123, 150);
     text-align: center;
     }
     </style>
     
 </head>
 <body>
-    <h1>About me</h1>
-     <div class="gohome">
+    <h1 class="card-title shadow sm p-4">About me</h1>
+
+    <div class="gohome shadow sm p-4">
     <span>
     <a href="index.html">Homepage</a>
     </span>
-
-    <div class="characteristics">
-    <div class="characteristic">Hello my name is Diana. As a graduate in physic and biomedical electronics, I have a strong theoretical, physical and mathematical background. During my studies, I was the Head of the trade union organization of my faculty, so I have good skills in communication and organizing various events.</div>
-    <div class="characteristic">I have experience in working with pharmaceutical products, quality and international standards. I easily connect with people and maintain healthy, strong relation. In a few words, I could describe myself as being honest, able, creative and hardworking.</div>  
+<div class="row">
+    
+    <div class="col-6">
+        <h5
+        class="card-title shadow sm p-4 border">
+        Hello my name is Diana. As a graduate in physic and biomedical electronics, I have a strong theoretical,
+        physical and mathematical background. During my studies, I was the Head of the trade union organization 
+        of my faculty, so I have good skills in communication and organizing various events.
+        </h5>
+    </div>
+    <div class="col-6">
+        <h5
+        class="card-title shadow sm p-4 border">
+         I create websites and applications using web languages such as HTML, CSS, JavaScript and Bootstrap that allow users to access and interact with the site or app. When you visit a website, 
+         the design elements you see were created by a front-end developer.. 
+        I easily connect with people and maintain healthy, strong relation. In a few words, I could describe
+         myself as being honest, able, creative and hardworking.
+        </h5>
+        </div>  
     </div> 
-
-    <h2>Contact me</h2>
+    <div class="footer">
+    <h2>📮Contact me</h2>
     <buttom>
      <a href="mailto:diapohribna@gmail.com">diapohribna@gmail.com</a>
-    </buttom>
+     </buttom>
+     </div>
     
 </body>
 </html>
